@@ -17,7 +17,10 @@ public class ECGVisConfig implements VisualizableConfiguration {
     private String id;
     ECGPlayer player;
     List<File> files;
-    private final String[] creators = {"capturepluginbitalino.BitalinoRecorder"};
+    private final String[] creators = {"capturepluginbitalino.BitalinoRecorder0",
+        "capturepluginbitalino.BitalinoRecorder3",
+    "capturepluginbitalino.BitalinoRecorder4",
+    "capturepluginbitalino.BitalinoRecorder6"};
     
 
     public ECGVisConfig() {
